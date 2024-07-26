@@ -1,0 +1,4 @@
+def rev(s):
+    print(s[::-1])
+s='sridevi womens engineering college'
+rev(s)

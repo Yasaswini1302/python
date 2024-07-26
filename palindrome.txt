@@ -1,0 +1,11 @@
+s='aba'
+s1=''
+for i in range(len(s)-1,-1,-1):
+    s1+=s[i]
+if(s1==s):
+    print('yes')
+else:
+    print('no')
+
+s='yasaswini'
+print(s[::-1])
