@@ -1,0 +1,14 @@
+c1=['keer','prav','sara','ven']
+print(c1)
+c1.remove('ven')
+print(c1)
+c1.append('keer')
+print(c1)
+c1.insert(0,'sree')
+print(c1)
+c1.pop(0)
+print(c1)
+c1[2]='yash'
+print(c1)
+c1.clear()
+print(c1)

@@ -1,0 +1,6 @@
+c1=['keer','prav','sara','ven']
+print(c1)
+count=1
+for ele in c1:
+    print(count,ele)
+    count+=1

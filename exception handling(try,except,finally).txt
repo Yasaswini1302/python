@@ -1,0 +1,9 @@
+ arr=[1,34,76,34,65]
+    print(arr[3])
+except IndexError:
+    print('cannot access index value')
+else:
+    print('no exception occured')
+finally:
+    print('finally wed is last day of training')
+    
