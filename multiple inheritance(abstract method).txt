@@ -1,0 +1,20 @@
+
+from abc import ABC
+class rbibank(ABC):
+    def interest():
+        pass
+    def loan():
+        print('provides the loan')
+class HDFC(rbibank):
+    def interest():
+        print('7.5% of interest')
+class SBI(rbibank):
+        def interest():
+            print('9.5% of interest')
+robj=rbibank
+robj.interest()
+robj.loan()
+sobj=SBI
+sobj.interest()
+sobj.loan()
+

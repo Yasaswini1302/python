@@ -1,0 +1,16 @@
+class student:
+    #static data
+    branch='cse'
+    def __init__(self,name,roll,address,email):
+        self.name=name
+        self.roll=roll
+        self.address=address
+        self.email=email
+    def display(self):
+        print('name is',self.name)
+        print('roll is',self.roll)
+        print('branch is',student.branch)
+        print('address is',self.address)
+        print('email is',self.email)
+s1=student('yashu',101,'hyd','yashu@gmail.com')
+s1.display()

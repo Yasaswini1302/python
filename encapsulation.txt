@@ -1,0 +1,23 @@
+class Employee:
+    def __init__(self,name,role,salary):
+        self.name=name
+        self.role=role
+        self.__salary=salary
+    def get_salary(self):
+        return self.__salary  #private data
+    def empdisplay(self):
+        print(self.name,self.role,self.__salary)
+class company(Employee):
+    def __init__(self,cname,loc):
+        self.cname=cname
+        self.loc=loc
+    def cmpdisplay(self):
+        print(self.cname,self.loc)
+    def hiring(self):
+        print('hiring for the manager role')
+cobj=company('wipro','gachibowli')
+eobj=Employee('yasaswini','developer',50000)
+eobj.empdisplay()
+cobj.cmpdisplay()
+print(cobj.hiring())
+
